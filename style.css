@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+}
+
+.hero-container {
+    display: flex;
+}
