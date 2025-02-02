@@ -125,3 +125,58 @@ button {
     max-width: 200px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 175px 375px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote h2 {
+    margin: 0;
+    align-self: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: #3882F6;
+    height: 300px;
+    width: 1300px;
+    margin: 100px 100px;
+    border-radius: 10px;;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up h2 {
+    margin: 0;
+}
+
+.box button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 25px;
+    font-size: 1.1rem;
+}
